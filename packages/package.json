@@ -1,0 +1,77 @@
+{
+  "name": "@holmesdev/sync",
+  "version": "1.0.8",
+  "description": "Dazzling Alert Boxes and Buttons for you by the Sync UI developers",
+  "type": "module",
+  "keywords": [
+    "Holmesglen",
+    "holmesdev",
+    "@holmesdev",
+    "@holmesdev/sync",
+    "popups",
+    "Buttons",
+    "Alert",
+    "AlertDialog",
+    "sync",
+    "SYNC",
+    "Sync"
+  ],
+  "main": "dist/index.js",
+  "homepage": "https://sync-documentation.onrender.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4DEVS-Holmesglen/4DEVS-SYNC"
+  },
+  "module": "dist/index.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.esm.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "4DEVS",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
+    "@chromatic-com/storybook": "^1.9.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/react-vite": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-url": "^3.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.2.9",
+    "styled-components": "^6.1.13",
+    "terser": "^5.36.0"
+  },
+  "peerDependencies": {
+    "react": ">= 18",
+    "react-dom": ">= 18",
+    "styled-components": ">= 6"
+  },
+  "packageManager": "pnpm@8.6.12+sha1.a2f983fbf8f2531dc85db2a5d7f398063d51a6f3",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-icons": "^5.3.0"
+  }
+}
