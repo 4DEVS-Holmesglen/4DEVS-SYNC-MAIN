@@ -20,7 +20,8 @@ Run either of these commands inside the terminal:
   $ yarn add @holmesdev/sync
 ```
 
-> [!IMPORTANT] > [Styled-components](https://styled-components.com/docs/basics#installation) is the JavaScript CSS library used to build our components. To ensure that they work as intended, you will need to separately install `styled-components` within both the `devDependencies` & `peerDependencies` inside of your `package.json` upon installation of the package.
+> [!IMPORTANT]
+> [Styled-components](https://styled-components.com/docs/basics#installation) is the JavaScript CSS library used to build our components. To ensure that they work as intended, you will need to separately install `styled-components` within both the `devDependencies` & `peerDependencies` inside of your `package.json` upon installation of the package.
 >
 > You <ins>MUST</ins> also ensure that you are:
 >
